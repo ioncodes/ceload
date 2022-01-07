@@ -142,7 +142,7 @@ void load_driver()
 
         DWORD bytes_read;
         DeviceIoControl(
-            handle, static_cast<std::uint32_t> (ioctl::read_memory),
+            handle, static_cast<std::uint32_t>(ioctl::read_memory),
             &request, sizeof(read_memory_t),
             buffer.data(), 2,
             &bytes_read, nullptr);
