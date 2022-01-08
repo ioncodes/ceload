@@ -147,7 +147,7 @@ void load_driver()
             buffer.data(), 2,
             &bytes_read, nullptr);
 
-        printf("Trying to read PE header from kernel: %c%c\n", buffer[0], buffer[1]);
+        std::printf("Trying to read PE header from kernel: %c%c\n", buffer[0], buffer[1]);
 
         // Create a message box to halt the process. This gives us time to inspect the console
         MessageBoxA(NULL, "Successfully got handle to dbk64.sys", "ayy", NULL);
