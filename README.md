@@ -37,5 +37,5 @@ I'll give you two ideas:
 
 ## Usage
 1. Make sure CheatEngine 7.3 is installed. You may have to run it at least once (with kernel settings enabled)
-2. Execute `ceload.exe` as administrator. Make sure `loader.dll` is in the same directory as `ceload.exe`
+2. Execute `ceload.exe` as administrator. Make sure `loader.dll` is in the same directory as `ceload.exe` and is named `lol.dll`
 3. If you want to use the handle, have a look at the `loader` project
